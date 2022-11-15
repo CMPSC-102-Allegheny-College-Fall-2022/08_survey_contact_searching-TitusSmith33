@@ -21,6 +21,7 @@ def search_for_email_given_job(job_description: str, contacts: str) -> List[str]
         if job_description.lower() in job_str.lower():
             # add the job and email to the list
             job_list.append(job_str)
+        # current_contact_job = contact_line[1]
     # return the list with job information
     return job_list
 
